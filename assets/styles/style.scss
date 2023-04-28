@@ -15,7 +15,7 @@
   /*===== Colores =====*/
   --first-color: #ffffff;
   --second-color: ;
-  --body-clr: #ffffff;
+  --body-clr: #000;
   /*===== Fuente y tipografia =====*/
   --body-font: "Roboto", sans-serif;
   --Main-font: Main;
@@ -57,7 +57,7 @@ html {
 body {
   font-family: var(--Main-font), sans-serif;
   font-size: var(--normal-font-size);
-  color: #000;
+  color: #fff;
   background: var(--body-clr);
   height: 100vh;
   // padding-inline: 1em;
@@ -110,7 +110,7 @@ img {
 #loading {
   min-height: 100vh;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #000;
   position: fixed;
   top: 0;
   z-index: 1000000;
@@ -121,7 +121,7 @@ img {
 
 a.button {
   padding: 16px 32px;
-  background: #2d2d2d;
+  background: #000;
   border-radius: 1000px;
   color: var(--white);
 }
@@ -154,7 +154,7 @@ header {
         font-weight: 400;
         font-size: 28px;
         line-height: 28px;
-        color: #000000;
+        color: #fff;
       }
     }
   }
@@ -191,8 +191,7 @@ header {
 
 #hero {
   width: 100%;
-  background-color: var(--first-color);
-  // padding-block: 4rem;
+  background-color: #000; // padding-block: 4rem;
 
   .row {
     h1.title {
@@ -213,7 +212,7 @@ header {
       min-height: 600px;
     }
     div:nth-child(2) {
-      background-color: #ffffff;
+      background-color: #000;
     }
   }
 }
@@ -239,7 +238,7 @@ main {
     .inner {
       min-height: 300px;
       width: 95%;
-      background-color: var(--first-color);
+      background-color: #000;
       border-radius: 20px;
       position: relative;
       // display: flex;
@@ -279,16 +278,16 @@ main {
       display: inline-block;
     }
     .span1 {
-      background: #000;
+      background: #fff;
     }
     .span2 {
-      background: #000;
+      background: #fff;
     }
     .span3 {
-      background: #000000;
+      background: #fff;
     }
     .span4 {
-      background: #000;
+      background: #fff;
     }
   }
 }
