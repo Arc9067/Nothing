@@ -167,6 +167,8 @@ header nav li a {
   font-weight: 400;
   font-size: 100px;
   line-height: 116px;
+  max-width: 700px;
+  margin-inline: auto;
 }
 @media (max-width: 1000px) {
   #hero .row h1.title {
