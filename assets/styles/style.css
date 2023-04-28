@@ -179,7 +179,7 @@ header nav li a {
   min-height: 600px;
 }
 #hero .row div:nth-child(2) {
-  background-color: #000;
+  background-color: #fff;
 }
 
 main {
@@ -206,6 +206,9 @@ main #about .inner {
   border-radius: 20px;
   position: relative;
   padding-block: 20px;
+}
+main #about .inner .img-div {
+  background: #fff;
 }
 main #about .inner img {
   width: 244px;

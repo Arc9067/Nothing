@@ -212,7 +212,7 @@ header {
       min-height: 600px;
     }
     div:nth-child(2) {
-      background-color: #000;
+      background-color: #fff;
     }
   }
 }
@@ -245,6 +245,9 @@ main {
       // justify-content: center;
       // align-items: center;
       padding-block: 20px;
+      .img-div {
+        background: #fff;
+      }
 
       img {
         width: 244px;
